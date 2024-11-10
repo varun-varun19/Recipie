@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar-desc{
+    color: gray;
+    display: inline;
+}
+
+.navbar-desc:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.box{
+    border: black 2px solid;
+    display: inline-block;
+    width: 250px;
+}
+
+.box-img{
+    width: 250px;
+    height: 400px;
+}
+
+.container{
+    text-align: center;
+    padding: 10px;
+}
+
+.box-desc{
+    margin: 3px;
+    padding: 2px;
+}
+
+.box-button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+}
+
+.box-desc:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+table{
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    padding: 3px;
+    margin: 4px;
+}
+
+.contact-form__send{
+    background-color: yellow;
+    width: 25%;
+    padding: 5px;
+    font-weight: 600;
+}
